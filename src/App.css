@@ -1,0 +1,26 @@
+.app {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+}
+
+div.formElements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.formElements>textarea{
+    width: 20rem;
+    height: 10rem;
+    font-size: larger;    
+}
+div.formElements>*{
+    margin: 0.5rem;
+}
+button {
+    height: 5rem;
+    width: 10rem;
+    font-size: 1rem;
+}

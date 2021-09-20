@@ -1,0 +1,23 @@
+.eachToDo {
+    --clr: rgb(218, 218, 117);
+    border: 2px solid var(--clr);
+    background-color: var(--clr);
+    border-radius: 10px;
+    margin: 2rem;
+    width: 10rem;
+    height: 10rem;
+    align-self: center;
+    text-align: left;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.eachToDo>input{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;    
+}
