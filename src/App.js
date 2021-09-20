@@ -43,7 +43,8 @@ function App() {
 
   return (
     <div className='app'>
-      <ToDoList todos = {toDos} toggleToDo={toggleToDo} />    
+      <h1>TO Do List</h1>
+      <ToDoList todos = {toDos} toggleToDo={toggleToDo} />
       <div className='formElements'>
         <textarea ref={todoNameRef} />
         <button onClick={handleAddToDo}>Add</button>
